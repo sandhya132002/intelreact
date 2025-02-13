@@ -1,22 +1,23 @@
-import React, { useState } from 'react'
+//import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
-    const [isOpen, setIsOpen] = useState(false)
+  //const [isOpen, setIsOpen] = useState(false);
+
   return (
-    
-        <nav className="bg-black p-4">
+    <nav className="bg-black p-4">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <a href="#" className="text-white text-2xl font-bold">
+        <Link to="/" className="text-white text-2xl font-bold">
           Intel<span className="text-teal-400">sync</span>
-        </a>
+        </Link>
 
         {/* Navigation Links */}
         <ul className="hidden md:flex space-x-6 bg-black px-6 py-2 rounded-full border border-gray-500">
           <li>
-            <a href="#" className="text-white hover:text-teal-400 transition">
+            <Link to="/about" className="text-white hover:text-teal-400 transition">
               About
-            </a>
+            </Link>
           </li>
           <li>
             <a href="#" className="text-white hover:text-teal-400 transition">
@@ -49,9 +50,7 @@ function Navbar() {
         </a>
       </div>
     </nav>
-      
-   
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

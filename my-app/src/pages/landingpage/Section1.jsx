@@ -1,4 +1,4 @@
-import React from 'react'
+//import React from 'react'
 import LandingPage from '../../component/main/LandingPage'
 import Cubes from '../../component/cubes/Cubes'
 import ServiceSec1 from '../../component/ourservices/serviceSec1'

@@ -1,6 +1,6 @@
-import React from 'react'
+//import React from 'react'
 import Cubes from '../cubes/Cubes'
-import Logoslider from '../logo/Logoslider'
+
 
 function LandingPage() {
 
@@ -39,7 +39,7 @@ function LandingPage() {
         {/* Button */}
         <button className="mt-5 px-3 py-2 border border-white text-white text-sm rounded-2xl 
                    shadow-lg hover:bg-white hover:text-black transition-all duration-300 ease-in-out">
-          Let's Get Connect
+          Lets Get Connect
         </button>
       </div>
 
