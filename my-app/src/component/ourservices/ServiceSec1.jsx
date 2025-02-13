@@ -1,5 +1,5 @@
-import React from 'react'
-import { FaRegLightbulb, FaCubes, FaHeadphones, FaChartLine, FaBullhorn, FaLayerGroup ,  } from "react-icons/fa";
+//import React from 'react'
+import { FaRegLightbulb, FaCubes, FaHeadphones, FaChartLine, FaLayerGroup ,  } from "react-icons/fa6";
 import { RiMicAiFill } from "react-icons/ri";
 
 
